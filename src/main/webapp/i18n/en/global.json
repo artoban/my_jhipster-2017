@@ -10,6 +10,7 @@
                 "bankAccount": "Bank Account",
                 "label": "Label",
                 "operation": "Operation",
+                "wishList": "Wish List",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {
