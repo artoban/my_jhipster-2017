@@ -84,7 +84,7 @@ public class WishListResource {
     public List<WishList> getAllWishLists() {
         log.debug("REST request to get all WishLists");
         //Hello Devoxx
-        List<WishList> wishLists = wishListRepository.findByUserIsCurrentUser();
+        List<WishList> wishLists = wishListRepository.findAll();
         return wishLists;
     }
 
